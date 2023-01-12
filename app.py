@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 st.title("Interact with Gapminder Data")
 
 # import our data as a pandas dataframe
-df = pd.read_csv("Data/gapminder_tidy.csv")
+df = pd.read_csv("gapminder_tidy.csv")
 
 # get a list of all possible continents and metrics, for the widgets
 continent_list = list(df["continent"].unique())
